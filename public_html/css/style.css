@@ -3,11 +3,7 @@ body, html {
   background-color: black;
 }
 
-@media only screen and (max-device-width: 500px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 .first-class{
   height:100%;
@@ -25,7 +21,6 @@ body, html {
     background-image: url("https://static.pexels.com/photos/17679/pexels-photo.jpg");
     height: 100%;
     width: 100%;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +53,6 @@ body, html {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flatiron_Building%2C_New_York%2C_United_States_%28Unsplash_Sfn8f32ZIj0%29.jpg/1280px-Flatiron_Building%2C_New_York%2C_United_States_%28Unsplash_Sfn8f32ZIj0%29.jpg");
     height: 100%;
     width: 100%;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,6 +138,18 @@ third-div{
   padding-bottom: 100px;
   
 }
+
+.lg-col-2{
+    text-align:center;
+    float:none;
+}
+.col-centered{
+    text-align:center;
+    
+}
+img{
+    style:block;
+}
 .every{
   
   color:red;
@@ -164,4 +170,14 @@ third-div{
   
   font-family: Rock Salt;
   color: #2fb53e;
+}
+.second-row{
+    margin-top: 50px;
+    margin-bottom:50px;
+    
+}
+@media only screen and (max-device-width: 500px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
