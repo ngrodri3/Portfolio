@@ -1,0 +1,167 @@
+body, html {
+    height: 100%;
+  background-color: black;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.first-class{
+  height:100%;
+  width:100%;
+  background-color:white;
+}
+.introduction{
+  text-align:center;
+  font-family: Oswald;
+  font-size: 50px;
+  padding-top:100px;
+  visibility: hidden;
+}
+.parallax1 {
+    background-image: url("https://static.pexels.com/photos/17679/pexels-photo.jpg");
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.top-div{
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+  border-bottom: 3px solid black;
+ 
+}
+.second-tier{
+   background-color: blue;
+  width: 100%;
+  border-bottom: 3px solid black;
+  
+}
+.main-header{
+  font-family: Lato, sans-serif;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 48px;
+  
+}
+.parallax2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flatiron_Building%2C_New_York%2C_United_States_%28Unsplash_Sfn8f32ZIj0%29.jpg/1280px-Flatiron_Building%2C_New_York%2C_United_States_%28Unsplash_Sfn8f32ZIj0%29.jpg");
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.second-div{
+  
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px black solid;
+  opacity:1.0;
+  
+}
+.different{
+
+  opacity: 0.9;
+  margin: 120px 200px;
+  color:white;
+  font-family: Lobster;
+  font-size:50px;
+  text-shadow: 3px 3px black;
+
+}
+
+third-div{
+    width: 100%;
+  text-align: center;
+
+  border-radius: 25%;
+  opacity:1.0;
+  margin-bottom: 60px;
+}
+.stand-out{
+  
+  opacity: 0.9;
+  padding-top: 100px;
+  text-align:center;
+  color:#e0f9f9;
+  font-family: Abril Fatface;
+  font-size:60px;
+  text-shadow: 3px 3px black;
+  padding-bottom: 100px;
+}
+.stand-out-mark{
+  
+  font-family: Permanent Marker;
+  font-size: 80px;
+  color: #E59014;
+  
+}
+.parallax3{
+      background-image: url("http://www.guoguiyan.com/data/out/138/68516858-notepad-wallpapers.jpeg");
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+  
+}
+.credentials{
+  font-family: Anton;
+  font-size: 40px;
+  color:white;
+  text-shadow: 3px 3px black;
+  padding-bottom: 60px;    
+  -webkit-transition: visibility 3s;
+    transition: visibility 2s;
+  
+}
+
+.work{
+   opacity: 0.9;
+  padding-top: 120px;
+  text-align:center;
+  color:black;
+  font-family: Anton;
+  font-size:50px;
+  text-shadow: 3px 3px white;
+  padding-bottom: 100px;
+  
+}
+.every{
+  
+  color:red;
+}
+.experienced{
+  color:gold;
+  
+}
+.experience{
+  color:#f4a742;
+}
+.filler-word{
+  font-size: 30px;
+  font-family: Oswald;
+  text-shadow: 3px 3px gray;
+}
+.seven{
+  
+  font-family: Rock Salt;
+  color: #2fb53e;
+}
