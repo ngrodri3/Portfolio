@@ -21,3 +21,7 @@ $("#seven").hover(function(){
 $("#first-class").click(function(){
   $("#first-class").hide();
 });
+$("#seven").hover(function(){
+    
+    ("#seven").effect("bounce",{times:3},100);
+});
